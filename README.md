@@ -15,3 +15,5 @@ Will integrate real-time data API.
 
 🎛 UI / Chat Interface:
 To be integrate with Python UI dashboard (Lastly)
+
+#This project is open for contributions.
