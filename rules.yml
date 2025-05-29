@@ -1,0 +1,41 @@
+version: "3.1"
+
+rules:
+- rule: Say hello anytime the user says hello
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Respond to top delay queries
+  steps:
+    - intent: query_top_delays
+    - action: action_get_top_delays
+
+- rule: Respond to COD explanations
+  steps:
+    - intent: explain_cod
+    - action: action_explain_cod
+
+- rule: Respond to station-specific report
+  steps:
+    - intent: station_report
+    - action: action_station_report
+
+- rule: Provide suggestions
+  steps:
+    - intent: suggest_fix
+    - action: action_suggest_fix
+
+
+# - rule: Submit delay query form
+#   steps:
+#     - intent: query_station_delays
+#     - action: delay_query_form
+#     - active_loop: delay_query_form
+#     - active_loop: null
+#     - action: action_get_station_delay

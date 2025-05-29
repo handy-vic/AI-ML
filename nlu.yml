@@ -1,0 +1,66 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: query_top_delays
+  examples: |
+    - What are the top 5 longest delays?
+    - Show me top delays this year
+    - Which delays lasted more than an hour?
+
+- intent: explain_cod
+  examples: |
+    - What caused the longest delay?
+    - Why did we have a long stop at PAR station?
+    - Explain the delay on Jan 10
+
+- intent: station_report
+  examples: |
+    - Give me April report for ROM station
+    - Delay summary at Itakpe in May
+    - What happened at IPE last week?
+    
+- intent: suggest_fix
+  examples: |
+    - How can we avoid turbocharger issues?
+    - Suggest fix for passenger crowding
+    - What do you recommend for repeated loco failures?
+
+
+
+# - intent: query_station_delays
+#   examples: |
+#     - Show me delays at ROM on September 22
+#     - I want to see delay report for ARK
+#     - What happened on 9/21/2023 at IPE?
+
+
+
