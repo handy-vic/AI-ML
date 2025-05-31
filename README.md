@@ -1,4 +1,4 @@
-# Rasa AI Assistant for train booking.
+# Rasa AI Assistant for train delay monitoring. 
 
 📁 NLU Training Data
 Intents: query_top_delays, station_report, suggest_fix, explain_cod, etc.
